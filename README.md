@@ -4,6 +4,8 @@
 
 A Vue component to render an IMDb watchlist
 
+**Note:** This component still needs to be published on NPM along with better documentation etc. Working on that still. Meanwhile, feel free to test it out using the instructions below!
+
 ## Backend
 
 This Vue component uses a backend service that I built to scrape IMDb content. Take a look at [expressyo-imdb-scraper](https://github.com/kunalnagar/expressyo-imdb-scraper)
