@@ -1,6 +1,6 @@
 # vue-imdb
 
-![](https://i.imgur.com/4rGeqOc.png)
+![](https://i.imgur.com/YuCwHI2.png)
 
 A Vue component to render an IMDb watchlist
 
