@@ -1,0 +1,40 @@
+$color--metascore-green: #6c3;
+$color--metascore-yellow: #fc3;
+$color--metascore-red: #f00;
+
+.area {
+	margin-top: 0.5em;
+}
+
+.d-flex {
+	display: flex;
+
+	&.items-center {
+		align-items: center;
+	}
+}
+
+.separator::before {
+	color: #dddddd;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+    content: '|';
+}
+
+.color {
+
+	&--metascore {
+
+		&-green {
+			background-color: $color--metascore-green;
+		}
+
+		&-yellow {
+			background-color: $color--metascore-yellow;
+		}
+
+		&-red {
+			background-color: $color--metascore-red;
+		}
+	}
+}
