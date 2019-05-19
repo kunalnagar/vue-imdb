@@ -1,4 +1,4 @@
-# vue-imdb
+# 🎬 vue-imdb
 
 ![](https://i.imgur.com/YuCwHI2.png)
 
