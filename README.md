@@ -1,5 +1,9 @@
 # 🎬 vue-imdb
 
+[![Known Vulnerabilities](https://snyk.io/test/github/kunalnagar/vue-imdb/badge.svg)](https://snyk.io/test/github/kunalnagar/vue-imdb)
+
+**Current Vulnerability in [axios](https://github.com/axios/axios), fix awaited. Read more [here](https://snyk.io/blog/a-denial-of-service-vulnerability-discovered-in-the-axios-javascript-package-affecting-all-versions-of-the-popular-http-client/).**
+
 ![](https://i.imgur.com/YuCwHI2.png)
 
 A Vue component to render an IMDb watchlist
