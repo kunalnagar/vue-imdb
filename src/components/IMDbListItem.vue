@@ -77,7 +77,7 @@ export default {
         },
         genres: function() {
             var _genres = [];
-            this.item.genres.forEach(function(genre, index) {
+            this.item.genres.forEach(function(genre) {
                 _genres.push(genre.name);
             });
             return _genres.join(', ');
