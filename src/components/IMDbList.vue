@@ -41,6 +41,7 @@ export default {
                 }
             })
             .catch(err => {
+                /*eslint no-console: ["error", { allow: ["error"] }] */
                 console.error(err);
                 this.errors.push(err.message);
             });
