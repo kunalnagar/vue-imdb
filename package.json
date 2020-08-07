@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
   },
   "husky": {
     "hooks": {
@@ -34,10 +34,12 @@
     "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.3",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21",
     "prettier": "^2.0.1",
-    "sort-package-json": "^1.40.0"
+    "sass-loader": "^7.1.0",
+    "sort-package-json": "^1.40.0",
+    "vue-template-compiler": "^2.5.21"
   }
 }
