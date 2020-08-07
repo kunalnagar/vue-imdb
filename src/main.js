@@ -1,10 +1,10 @@
-import Vue from 'vue';
-import axios from 'axios';
-import App from './App.vue';
+import Vue from 'vue'
+import axios from 'axios'
+import App from './App.vue'
 
-axios.defaults.baseURL = '';
+axios.defaults.baseURL = ''
 
 new Vue({
-    el: '#app',
-    render: h => h(App)
-});
+  el: '#app',
+  render: (h) => h(App),
+})
